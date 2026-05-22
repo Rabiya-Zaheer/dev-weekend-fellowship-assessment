@@ -1,5 +1,3 @@
-markdown 
-
 ## Pomodoro Timer App
 
 A simple and responsive Pomodoro Timer web application built with **React + Vite**.  
