@@ -1,9 +1,9 @@
-Here's a clean, complete `README.md` you can paste directly into GitHub:
-```markdown
 #  Pomodoro Timer App
 A simple and responsive Pomodoro Timer web application built with **React + Vite**.  
 Boost your productivity by alternating between focused work sessions and short breaks — with automatic session tracking built in.
+
 ---
+
 ##  Getting Started
 ### Prerequisites
 - [Node.js](https://nodejs.org/) (v18 or higher recommended)
@@ -20,6 +20,7 @@ npm install
 npm run dev
 ```
 Then open your browser and go to: `http://localhost:5173`
+
 ---
 ##  Project Structure
 ```
@@ -60,6 +61,7 @@ pomodoro-timer/
 ---
 ##  Author
 Built as a frontend learning project.
+
 ---
 ##  License
 This project is for educational use only.
