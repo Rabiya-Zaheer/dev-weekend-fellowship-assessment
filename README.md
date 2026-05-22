@@ -1,16 +1,87 @@
-# React + Vite
+markdown# 
+Pomodoro Timer App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive Pomodoro Timer web application built with **React + Vite**.  
+Boost your productivity by alternating between focused work sessions and short breaks — with automatic session tracking built in.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+##  Getting Started
 
-## React Compiler
+### Prerequisites
+- [Node.js](https://nodejs.org/) (v18 or higher recommended)
+- npm (comes with Node.js)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Installation
 
-## Expanding the ESLint configuration
+```bash
+# 1. Clone the repository
+git clone https://github.com/Rabiya-Zaheer/Dev-Weekend-Fellowship-Assessment/tree/main/pomodoro-timer
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# 2. Navigate into the project folder
+cd pomodoro-timer
+
+# 3. Install dependencies
+npm install
+
+# 4. Start the development server
+npm run dev
+```
+
+Then open your browser and go to: `http://localhost:5173`
+
+---
+##  Project Structure
+pomodoro-timer/
+├── public/
+└── src/
+├── App.jsx        # Main Pomodoro logic & state
+├── App.css        # Component styling
+└── main.jsx       # React entry point 
+
+---
+
+##  How It Works
+
+1. Timer starts in **Focus Mode** (25 minutes)
+2. When the timer hits zero:
+   - The focus session is saved to history
+   - App automatically switches to **Break Mode** (5 minutes)
+3. After the break ends, it switches back to Focus Mode
+4. All focus sessions for the current day are stored via **LocalStorage**
+5. History resets automatically at midnight (new day)
+
+---
+
+##  Key Features
+
+-  25-minute focus / 5-minute break cycle
+-  Session history tracking (per day)
+-  Persistent storage with LocalStorage
+-  Auto mode switching (focus ↔ break)
+-  Responsive UI
+
+---
+##  Built With
+
+- [React](https://react.dev/) — UI library
+- [Vite](https://vitejs.dev/) — Build tool & dev server
+
+---
+##  Future Improvements
+
+- [ ] Custom focus/break durations
+- [ ] Sound notifications on session end
+- [ ] Progress bar / animations
+- [ ] Dark / light theme toggle
+- [ ] Desktop notifications
+
+---
+##  Author
+
+Built as a frontend learning project.
+
+---
+##  License
+
+This project is for educational use only.
