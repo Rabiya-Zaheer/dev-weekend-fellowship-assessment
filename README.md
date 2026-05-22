@@ -1,5 +1,6 @@
-markdown# 
-Pomodoro Timer App
+markdown 
+
+## Pomodoro Timer App
 
 A simple and responsive Pomodoro Timer web application built with **React + Vite**.  
 Boost your productivity by alternating between focused work sessions and short breaks — with automatic session tracking built in.
